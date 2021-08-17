@@ -8,7 +8,7 @@
 # Blog: https://p3terx.com
 #============================================================
 #
-chmod +x package/boot/arm-trusted-firmware-rockchip-vendor/pack-firmware.sh
+#chmod +x package/boot/arm-trusted-firmware-rockchip-vendor/pack-firmware.sh
 # Modify default IP
 sed -i 's/10.0.0.1/10.0.10.100/g' package/base-files/files/bin/config_generate
 # add theme atmaterial
